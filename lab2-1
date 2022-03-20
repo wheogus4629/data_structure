@@ -1,0 +1,32 @@
+#include <stdio.h>
+
+int main(){
+    printf("[----- [Cho Daehyeon] [2016039075] -----]\n");
+    
+    char charType;
+    int integerType;
+    float floatType;
+    double doubleType;
+
+    printf("Size of char: %1d byte\n", sizeof(charType));       // charType 변수의 크기 출력
+    printf("Size of int: %1d bytes\n", sizeof(integerType));    // integerType 변수의 크기 출력
+    printf("Size of float: %1d bytes\n", sizeof(floatType));    // floatType 변수의 크기 출력
+    printf("Size of double: %1d bytes\n", sizeof(doubleType));  // doubleType 변수의 크기 출력
+
+    printf("-----------------------------------------\n");
+
+    printf("Size of char: %1d byte\n", sizeof(char));           // char 자료형의 크기 출력
+    printf("Size of int: %1d bytes\n", sizeof(int));            // int 자료형의 크기 출력
+    printf("Size of float: %1d bytes\n", sizeof(float));        // float 자료형의 크기 출력
+    printf("Size of double: %1d bytes\n", sizeof(double));      // double 자료형의 크기 출력
+
+
+    printf("-----------------------------------------\n");
+
+    printf("Size of char*: %1d byte\n", sizeof(char*));         // char 포인터의 크기 출력
+    printf("Size of int*: %1d bytes\n", sizeof(int*));          // int 포인터의 크기 출력
+    printf("Size of float*: %1d bytes\n", sizeof(float*));      // float 포인터의 크기 출력
+    printf("Size of double*: %1d bytes\n", sizeof(double*));    // double 포인터의 크기 출력
+
+    return 0;
+}
